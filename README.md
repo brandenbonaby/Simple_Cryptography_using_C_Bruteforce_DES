@@ -1,7 +1,7 @@
 # Simple_Cryptography_using_C_Bruteforce_DES
 
 Brute force Program to crack DES password encryted of passwords 5 characters or less with only uppercase & lower case inputs
-Note: program could utilize the FILE function and use a dictionary file to search for the most common passwords/words but I wanted to try a literal character brute force method, so for passwords of 4 characters or less it shouldnt take long at all but most likely 5 characters will need O(n^5) time to crack, lets see how long it takes in human time. This is only for academic purposes to understand how DES hash function worked.
+Note: program could utilize the FILE function and use a dictionary file to search for the most common passwords/words but I wanted to try a literal character brute force method, so for passwords of 4 characters or less it shouldnt take long at all but most likely 5 characters will need O(n^5) time to crack. As you can see thats a pretty big number which will increase exponentially if you simply increase the input size. Now you can see why increasing that to like 8+ will help prevent your password from being cracked really quickly and this is just with letters. This is only for academic purposes to understand how the original DES hash function worked.
 
 
 <h2> Usage:</h2>
